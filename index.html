@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>울산 북구 연암동 381-12번지 1층 신속사</title>
+  </head>
+  <body>
+    <embed src="https://www.sinsoksa.com" style="width: 100%; height: 100%;"><embed>
+    <dialog>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.7662519233786!2d129.36066780098326!3d35.582767525050265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3567cc7e631045a9%3A0x3b356872f77892df!2z7lug7laN7lKs!5e0!3m2!1sko!2skr!4v1728965428128!5m2!1sko!2skr" width="400" height="300" style="border: 0;"></iframe>
+      <p>
+        <progress value="0" max="16" style="width: 100%;"></progress><br/>
+        영업시간 <b>09:30 ~ 18:30 KST</b> 토/일요일, 공휴일 휴무<hr/>
+        사업자등록번호 <b>620-03-81701</b> (1999년 6월 16일 개업)<br/>
+      </p>
+      <a href="mailto:sss052@daum.net">울산 북구 연암동 381-12번지 1층 신속사</a>
+    </dialog>
+  </body>
+  <script>
+    const kst = new Date();
+    const klock = kst.getHours();
+    document.querySelector("progress").value += klock > 10 ? klock%18 : klock+6;
+    if(kst.getDay()%6 && (klock >= 18 || klock < 10)) document.querySelector("dialog").showModal();
+  </script>
+</html>
