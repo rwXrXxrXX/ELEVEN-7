@@ -17,8 +17,9 @@
   </body>
   <script>
     const kst = new Date();
-    const klock = kst.getHours();
-    document.querySelector("progress").value += klock > 10 ? klock%18 : klock+6;
-    if(kst.getDay()%6 && (klock >= 18 || klock < 10)) document.querySelector("dialog").showModal();
+    const klock = (((kst.getDay()+1)%7)*24+kst.getHours()+6)%168;
+    const interval = klock > 63 ? klock%24 : klock/4;
+    document.querySelector("progress").value += interval;
+    if(interval < 16) document.querySelector("dialog").showModal();
   </script>
 </html>
