@@ -20,6 +20,6 @@
     const klock = (((kst.getDay()+1)%7)*24+kst.getHours()+7)%168;
     const interval = klock < 65 ? klock/4 : klock%24;
     document.querySelector("progress").value += interval;
-    if(interval < 17) document.querySelector("dialog").showModal();
+    if(interval && interval < 17) document.querySelector("dialog").showModal();
   </script>
 </html>
