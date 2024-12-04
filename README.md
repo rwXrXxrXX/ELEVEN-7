@@ -1,5 +1,5 @@
 # 信續社 /신속사/
->사업자등록번호 620-03-81701<br>(1999년 6월 16일 개업)
+>**사업자등록번호 620-03-81701**<br>1999년 6월 16일 개업
 <hr>
 <img src="http://t1.daumcdn.net/roughmap/imgmap/b823a7569eda6f4ca9a8d4e6f34de7f11f68f835fdcc2bf9ba46a28d41254a8b" width="500px" height="300px">
 
