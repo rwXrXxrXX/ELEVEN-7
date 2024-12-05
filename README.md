@@ -16,7 +16,7 @@
 <hr>
 
 **전화** 052-288-6566<hr>
-**메일** sss052@daum.net<hr>
+**메일** sss052@daum.net / kim@sinsoksa.com<hr>
 **영업시간** 09:30 ~ 18:30 KST
 >[!WARNING]
 >**토/일요일, 공휴일 휴무**
