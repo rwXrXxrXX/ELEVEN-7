@@ -7,7 +7,7 @@
 **아이피주소** 666.sinsoksa.com
 >[!TIP]
 >```PowerShell
->ping 666.sinsoksa.com
+>ping 117.sinsoksa.com
 >```
 >>실시간 유동아이피주소 조회
 
